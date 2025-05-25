@@ -1,30 +1,30 @@
-## Review
+## ふりかえり
 
-_Congratulations, you've completed this exercise and learned a lot about GitHub Copilot!_
+_おめでとうございます！この演習を完了し、GitHub Copilot について多くを学びました！_
 
 <img src="https://octodex.github.com/images/jetpacktocat.png" alt=celebrate width=200 align=right>
 
-Here's a recap of your accomplishments:
+あなたが達成したことを振り返りましょう：
 
-- Set up your GitHub Codespace and environment.
-- Learned how to use Copilot inline suggestions, Chat, and Edits.
-- Used Copilot to generate commit messages and pull request summaries.
-- Learned how to request Copilot to review your code.
+- GitHub Codespace と開発環境のセットアップ
+- Copilot のインライン提案、チャット、編集機能の使い方を習得
+- Copilot でコミットメッセージやプルリクエスト要約を自動生成
+- Copilot にコードレビューを依頼する方法を学習
 
-### What's next?
+### 次にやることは？
 
-- Continue working on the project
-  - Use Copilot to add a function for students to unregister from an activity.
-  - Use Copilot to fix issues found during a pull request review.
-  - Use Copilot to generate tests and documentation.
-  - Use Copilot with different models.
-- Check out the other [GitHub Skills exercises](https://skills.github.com).
-  - Learn how to [Integrate MCP with Copilot](https://github.com/skills/integrate-mcp-with-copilot)
-  - Try building your first [GitHub Copilot Extension](https://github.com/skills/your-first-extension-for-github-copilot)
+- プロジェクトを引き続き進めましょう
+  - Copilot を使って生徒が活動を登録解除できる機能を追加
+  - プルリクエストレビューで見つかった問題を Copilot で修正
+  - Copilot でテストやドキュメントを生成
+  - Copilot の異なるモデルを試す
+- 他の [GitHub Skills 演習](https://skills.github.com) もチェック
+  - [MCPとCopilotの連携方法](https://github.com/skills/integrate-mcp-with-copilot) を学ぶ
+  - [GitHub Copilot拡張機能の作成](https://github.com/skills/your-first-extension-for-github-copilot) に挑戦
 
-Check out these resources to learn more about GitHub Copilot :
+GitHub Copilot をさらに学ぶためのリソース：
 
-- Are you not getting the responses you want from Copilot? [Learn prompt engineering](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat)
-- Explore GitHub Copilot [Slash Commands](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode).
-- See what other features are available [GitHub Copilot Features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features).
-- Take a look at the [GitHub Copilot Documentation](https://docs.github.com/en/copilot).
+- Copilot から思うような回答が得られない？[プロンプトエンジニアリングを学ぶ](https://docs.github.com/ja/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat)
+- GitHub Copilot の [スラッシュコマンド](https://docs.github.com/ja/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode) を探る
+- 他の機能もチェック [GitHub Copilot の機能一覧](https://docs.github.com/ja/copilot/about-github-copilot/github-copilot-features)
+- [GitHub Copilot ドキュメント](https://docs.github.com/ja/copilot) を読む

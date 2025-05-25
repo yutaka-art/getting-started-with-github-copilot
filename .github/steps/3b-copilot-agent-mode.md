@@ -1,88 +1,87 @@
-### :keyboard: Bonus Activity - GitHub Copilot Agent Mode
+### :keyboard: ボーナスアクティビティ - GitHub Copilot Agent モード
 
 > [!NOTE]
-> This activity is optional and not graded.
+> このアクティビティは任意であり、採点対象ではありません。
 
-### What is "Agent" Mode?
+### 「Agent」モードとは？
 
-**Agent** mode enhances Copilot by automatically providing it feedback, typically the types of feedback you would provide after reviewing Copilot's suggested edits.
+**Agent** モードは、Copilot に自動でフィードバックを与えることで、Copilot の編集提案をレビューした後にあなたが行うようなフィードバックを自動化します。
 
-**Agent** mode gives Copilot a feedback loop, enabling it to inspect its own results for issues, bugs, inconsistency, etc. in the code and even the terminal! This allows it to automatically revise its work in many situations. Similarly this means **Agent** mode can
-typically handle more complex and multi-step tasks.
+**Agent** モードは Copilot にフィードバックループを与え、コードやターミナルの結果に対して問題・バグ・不整合などを自分で検査できるようになります。これにより、多くの状況で自動的に作業を修正できるようになります。同時に、**Agent** モードはより複雑で多段階なタスクも扱えるようになります。
 
-That's just a brief intro and there is much more to learn, but that's for a dedicated future exercise. (hint)
+ここでは簡単な紹介だけですが、もっと詳しくは今後の専用レッスンで！（ヒント）
 
-Now, let's give **Agent** mode a try! 👩‍🚀
+それでは、**Agent** モードを試してみましょう！👩‍🚀
 
-### :keyboard: Activity: Use Agent mode to add functional "unregister" buttons
+### :keyboard: アクティビティ: Agent モードで「登録解除」ボタンを追加しよう
 
-Let's experiment with some more open-ended requests that will add more functionality to our web application. Remember, AI assistants often produce different results, even if the same prompt is provided. If you don't get the desired results, you can try other models or provided followup feedback to refine the results.
+より自由度の高いリクエストで、Webアプリに機能を追加してみましょう。AIアシスタントは同じプロンプトでも毎回異なる結果を出すことがあります。思い通りの結果が得られない場合は、他のモデルを試したり、追加のフィードバックを与えて調整しましょう。
 
-1. Open the **Copilot** chat panel and use the dropdown menu to switch to **Agent** mode.
+1. **Copilot** チャットパネルを開き、ドロップダウンメニューから **Agent** モードに切り替えます。
 
    <img width="250" alt="image" src="https://github.com/user-attachments/assets/8c537e2a-d89a-4908-8d35-77c7f0830805" />
 
-1. Time for our test! Let's ask Copilot to add functionality for removing participants.
+1. さっそくテストです！Copilot に参加者削除機能の追加を依頼しましょう。
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > #codebase Please add a delete icon next to each participant and hide the bullet points.
-   > When clicked, it will unregister that participant from the activity.
+   > #codebase 各参加者の横に削除アイコンを追加し、箇条書きの点は非表示にしてください。
+   > クリックするとその参加者を活動から登録解除できるようにしてください。
    > ```
 
-   - If you try this prompt in **Edit** mode, you will probably find that the changes to the frontend and backend were made in a theoretical way. Although no syntax or runtime errors occurred, the changes were not compatible and didn't achieve the goal.
-   - In **Agent** mode, Copilot reviewed its own work and refined it to ensure all changes were error free and coordinated together.
+   - **編集モード（Edit）** でこのプロンプトを試すと、フロントエンドとバックエンドの変更が理論的には行われますが、実際には互換性がなく、目的を達成できない場合が多いです。
+   - **Agent** モードでは、Copilot が自分の作業をレビューし、すべての変更がエラーなく連携するように修正します。
 
-1. When Copilot is finished, restart the debugger and inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback to refined the results.
+1. Copilot の処理が終わったら、デバッガを再起動して結果を確認しましょう。気に入ったら **Keep** ボタンを押してください。気に入らなければ Copilot にフィードバックを与えて再調整しましょう。
 
-1. Ask Copilot to fix a registration bug.
+1. Copilot に登録バグの修正も依頼しましょう。
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > #codebase I've noticed there seems to be a bug.
-   > When a participant is registered, the page must be refreshed to see the change on the activity.
+   > #codebase バグを見つけました。
+   > 参加者を登録しても、活動の変更を反映するにはページをリロードしないといけません。
    > ```
 
-   - If you try this prompt in **Edit** mode, it may or may not work.
+   - **編集モード（Edit）** でこのプロンプトを試すと、うまくいく場合といかない場合があります。
 
-1. When Copilot is finished, inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback.
+1. Copilot の処理が終わったら結果を確認し、良ければ **Keep** ボタンを押してください。気に入らなければフィードバックを送りましょう。
 
-### :keyboard: Activity: Use Agent mode to change the database! 🧑‍🚀
+### :keyboard: アクティビティ: Agent モードでデータベースを変更しよう！🧑‍🚀
 
-Just for fun, let's try something even more difficult and open-ended to see what happens!
+お楽しみとして、さらに難易度の高いリクエストも試してみましょう！
 
 > [!TIP]
-> In our experiments, we got working results most of the time, but not every time.
-> You might try other models or pausing to provide Copilot feedback.
+> 実験では多くの場合うまくいきましたが、毎回成功するとは限りません。
+> 他のモデルを試したり、Copilot にフィードバックを与えてみてください。
 
-1. (optional) If it is available for you, you might try another model such as `Claude 3.5 Sonnet`.
+1. （任意）利用可能であれば `Claude 3.5 Sonnet` など他のモデルも試してみましょう。
 
    <img width="250" alt="image" src="https://github.com/user-attachments/assets/16125b88-8428-4f62-9c1b-5761e26ed888" />
 
-1. Ask Copilot to install a local database service.
+1. Copilot にローカルデータベースサービスのインストールを依頼します。
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Please install a local mongodb server for development reasons.
-   > Afterward, run a command that lists the collections to verify the service is active and working.
-   > Do not modify our program yet.
+   > 開発用にローカルのmongodbサーバーをインストールしてください。
+   > その後、サービスが正常に動作しているか確認するためにコレクション一覧を表示するコマンドを実行してください。
+   > プログラム自体はまだ変更しないでください。
    > ```
 
-   - We purposely made the default development environment not ready for installing a local MongoDB server.
-   - You will see Copilot make mistakes, analyze the error messages, and ask to run various extra commands to make the environment suitable. Nice!
+   - デフォルトの開発環境ではローカルMongoDBサーバーのインストールができないようにしてあります。
+   - Copilot がエラーを分析し、環境を整えるために様々な追加コマンドを提案する様子が見られます。面白いですね！
 
-1. Ask Copilot to change our app to use the database service. 🤯
+1. Copilot にアプリをデータベース利用に切り替えるよう依頼しましょう。🤯
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > #codebase I don't like that we are storing the data in memory.
-   > Let's switch to using mongodb.
-   > For now use the local development instance.
-   > Please pre-populate the database with the existing hardcoded json activities, keeping the activity name as the key.
+   > #codebase データをメモリ上に保存するのは好みません。
+   > mongodb を使うように切り替えてください。
+   > まずはローカル開発用インスタンスを使ってください。
+   > 既存のハードコーディングされたjsonの活動データを、活動名をキーとしてデータベースに事前投入してください。
    > ```
 
-1. That's your preview for now. We hope it was fun and please check back soon on the [Skills page](https://skills.github.com) for a dedicated exercise to explore even more of Agent Mode! 🧑‍🚀 🚀
+1. 今回はここまでです。楽しんでいただけたでしょうか？Agent モードをさらに深く体験できる専用レッスンも [Skillsページ](https://skills.github.com) で今後公開予定ですので、ぜひご期待ください！🧑‍🚀 🚀
